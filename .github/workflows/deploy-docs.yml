@@ -23,8 +23,8 @@ jobs:
 
       - run: npm run build
        env:
-          TURBO_TOKEN: ct4rzEBvMAOEd36lGFd0gR52
-          TURBO_TEAM: guirdy
+          TURBO_TOKEN: hzaMWJQzTSFsatHyWMl1qxzb
+          TURBO_TEAM: gui-leandro
 
       - name: Deploy storybook
         working-directory: ./packages/docs
